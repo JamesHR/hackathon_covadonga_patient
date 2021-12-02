@@ -13,7 +13,10 @@ export class HomePage {
     console.log('Hola');
   }
 
+}
 
-  
+
+
+
 
 }
