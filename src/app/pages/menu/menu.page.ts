@@ -11,5 +11,8 @@ export class MenuPage implements OnInit {
 
   ngOnInit() {
   }
+  onClickTest(){
+    
+  }
 
 }
