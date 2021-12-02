@@ -14,9 +14,3 @@ export class HomePage {
   }
   //Soy araceli
 }
-
-
-
-
-
-}
