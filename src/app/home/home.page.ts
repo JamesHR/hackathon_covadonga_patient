@@ -9,4 +9,14 @@ export class HomePage {
 
   constructor() {}
 
+  onClickTest() {
+    console.log('Hola');
+  }
+  //Soy araceli
+}
+
+
+
+
+
 }
