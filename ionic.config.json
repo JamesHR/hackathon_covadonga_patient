@@ -1,5 +1,7 @@
 {
   "name": "hackathon_covadonga_patient",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
