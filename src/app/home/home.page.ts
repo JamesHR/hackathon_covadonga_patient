@@ -12,7 +12,7 @@ export class HomePage {
   onClickTest() {
     console.log('Hola');
   }
-
+  //Soy araceli
 }
 
 
