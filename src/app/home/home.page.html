@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      COVADONGA
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,8 +13,89 @@
     </ion-toolbar>
   </ion-header>
 
+
+  <ion-card size="2">
+    <ion-card-header>
+      <ion-card-subtitle>Bienvenido</ion-card-subtitle>
+      <ion-card-title>Jaime Hernández Ramirez</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Folio:237HD32
+    </ion-card-content>
+  </ion-card>
+ 
+    
+   
+  <ion-card>
+    
+  <ion-row>
+    <ion-col size="6">
+      <ion-card redire>
+        <ion-card-header >
+          <ion-icon size="large" name="calendar" color="primary"></ion-icon>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-card-subtitle>Cita médico</ion-card-subtitle>
+        </ion-card-content>
+      </ion-card>
+
+      <!-- <ion-button expand="block"> <ion-icon name="calendar"></ion-icon>
+        Cita Médica</ion-button> -->
+    </ion-col>
+    <ion-col size="6">
+
+
+      <ion-card (click)="onClickTest()">
+        <ion-card-header>
+          <ion-icon size="large" color="primary" name="folder-open"></ion-icon>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-card-subtitle>Expediente médico</ion-card-subtitle>
+        </ion-card-content>
+      </ion-card>
+
+    
+    </ion-col>
+    <ion-col size="6">
+
+      <ion-card (click)="onClickTest()">
+        <ion-card-header>
+          <ion-icon size="large" color="primary" name="navigate-circle"></ion-icon>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-card-subtitle>Cambio de clínica</ion-card-subtitle>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+
+
+
+      <ion-card (click)="onClickTest()">
+        <ion-card-header>
+          <ion-icon size="large" color="primary" name="pencil"></ion-icon>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-card-subtitle>Administrar Datos</ion-card-subtitle>
+        </ion-card-content>
+      </ion-card>
+       
+
+    </ion-col>
+  </ion-row>
+   
+
+    
+
+  </ion-card>
+
+
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    
   </div>
 </ion-content>
