@@ -18,7 +18,16 @@ const routes: Routes = [
   {
     path: 'cita',
     loadChildren: () => import('./pages/cita/cita.module').then( m => m.CitaPageModule)
+  },  {
+    path: 'cita3',
+    loadChildren: () => import('./pages/cita3/cita3.module').then( m => m.Cita3PageModule)
   },
+  {
+    path: 'expediente',
+    loadChildren: () => import('./pages/expediente/expediente.module').then( m => m.ExpedientePageModule)
+  }
+
+
 
 ];
 
