@@ -32,24 +32,29 @@
     </ion-list>
 </ion-content>
 
-
-
-    <ion-tabs>
-        <ion-tab-bar slot="bottom">
-          <ion-tab-button tab="schedule">
-            <ion-icon name="call-outline"></ion-icon>
-            <ion-label>Emergencia</ion-label>
-          </ion-tab-button>
-      
-          <ion-tab-button tab="speakers">
-            <ion-icon name="qr-code-outline" color="primary"></ion-icon>
-            <ion-label color="primary">QR</ion-label>
-          </ion-tab-button>
-      
-          <ion-tab-button tab="map">
-            <ion-icon name="medkit-outline"></ion-icon>
-            <ion-label>Paquetes</ion-label>
-          </ion-tab-button>
+<ion-footer class="ion-no-border">
+    <ion-toolbar>
+        <ion-tabs>
+            <ion-tab-bar slot="bottom">
+              <ion-tab-button >
+                <ion-icon name="call-outline"></ion-icon>
+                <ion-label>Emergencia</ion-label>
+              </ion-tab-button>
+          
+              <ion-tab-button>
+                <ion-icon name="qr-code-outline" color="primary"></ion-icon>
+                <ion-label color="primary">QR</ion-label>
+              </ion-tab-button>
+          
+              <ion-tab-button routerLink="/paquetes">
+                <ion-icon name="medkit-outline"></ion-icon>
+                <ion-label>Paquetes</ion-label>
+              </ion-tab-button>
+        
+            </ion-tab-bar>
+          </ion-tabs>
     
-        </ion-tab-bar>
-      </ion-tabs>
+    </ion-toolbar>
+</ion-footer>
+
+  
