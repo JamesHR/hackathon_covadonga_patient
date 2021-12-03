@@ -6,7 +6,7 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="itemCenter">
     <ion-header collapse="condense">
         <ion-toolbar>
             <ion-title size="large">Blank</ion-title>
@@ -35,7 +35,6 @@
                     <ion-card-header>
                         <ion-icon size="large" name="calendar" color="primary"></ion-icon>
                     </ion-card-header>
-
                     <ion-card-content>
                         <ion-card-subtitle>Cita Médica</ion-card-subtitle>
                     </ion-card-content>
@@ -59,7 +58,34 @@
 
 
             </ion-col>
+            <ion-col size="6">
 
+                <ion-card (click)="onClickTest()">
+                    <ion-card-header>
+                        <ion-icon size="large" color="primary" name="folder-open"></ion-icon>
+                    </ion-card-header>
+
+                    <ion-card-content>
+                        <ion-card-subtitle>Tus citas</ion-card-subtitle>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+
+
+
+                <ion-card (click)="onClickTest()">
+                    <ion-card-header>
+                        <ion-icon size="large" color="primary" name="pencil"></ion-icon>
+                    </ion-card-header>
+
+                    <ion-card-content>
+                        <ion-card-subtitle>Administrar Datos</ion-card-subtitle>
+                    </ion-card-content>
+                </ion-card>
+
+
+            </ion-col>
         </ion-row>
 
 

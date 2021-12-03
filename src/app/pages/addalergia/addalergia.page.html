@@ -1,0 +1,38 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Agregar alergia</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+
+    <ion-list mode="ios" class="contenedorLista">
+
+        <ion-list-header class="itemCenter">
+            <ion-label>
+                Escriba a que medicamento es alérgico:
+            </ion-label>
+        </ion-list-header>
+
+
+        <div class="margenArriba">
+            <ion-item>
+                <ion-label position="floating">Medicamento:</ion-label>
+                <ion-input></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="floating">Observaciones:</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+            <br>
+            <div>
+                <ion-button routerLink="/alergias" size="block">Guardar
+                </ion-button>
+                <ion-button routerLink="/alergias" color="danger" size="block">Cancelar
+                </ion-button>
+            </div>
+
+
+
+        </div>
+    </ion-list>
+</ion-content>

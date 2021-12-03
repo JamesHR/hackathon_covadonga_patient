@@ -25,6 +25,18 @@ const routes: Routes = [
   {
     path: 'expediente',
     loadChildren: () => import('./pages/expediente/expediente.module').then( m => m.ExpedientePageModule)
+  },
+  {
+    path: 'alergias',
+    loadChildren: () => import('./pages/alergias/alergias.module').then( m => m.AlergiasPageModule)
+  },
+  {
+    path: 'medicamentos',
+    loadChildren: () => import('./pages/medicamentos/medicamentos.module').then( m => m.MedicamentosPageModule)
+  },
+  {
+    path: 'addalergia',
+    loadChildren: () => import('./pages/addalergia/addalergia.module').then( m => m.AddalergiaPageModule)
   }
 
 
