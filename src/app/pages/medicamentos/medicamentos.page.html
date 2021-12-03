@@ -1,9 +1,38 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>medicamentos</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>Agregar Medicamentos</ion-title>
+    </ion-toolbar>
 </ion-header>
+<ion-content fullscreen>
 
-<ion-content>
+    <ion-list mode="ios" class="contenedorLista">
 
+        <ion-list-header class="itemCenter">
+            <ion-label>
+                Escriba los medicamentos que toma actualmente:
+            </ion-label>
+        </ion-list-header>
+
+
+        <div class="margenArriba">
+            <ion-item>
+                <ion-label position="floating">Medicamento:</ion-label>
+                <ion-input></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="floating">Observaciones:</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+            <br>
+            <div class="ion-no-border ion-padding">
+                <ion-button mode="ios" routerLink="/listmedicamentos" size="block">Guardar
+                </ion-button>
+                <ion-button mode="ios" routerLink="/menu" color="danger" size="block">Cancelar
+                </ion-button>
+            </div>
+
+
+
+        </div>
+    </ion-list>
 </ion-content>
