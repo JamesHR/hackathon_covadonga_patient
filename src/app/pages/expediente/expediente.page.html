@@ -1,8 +1,12 @@
-<ion-header [translucent]="true">
-    <ion-toolbar mode="ios">
-        Expediente Médico
-    </ion-toolbar>
-</ion-header>
+<ion-toolbar mode="ios" class="contenedorLista">
+    <ion-buttons slot="start" routerLink="/menu">
+        <ion-button>
+            <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+        </ion-button>
+    </ion-buttons>
+    <ion-title>Expediente Médico</ion-title>
+
+</ion-toolbar>
 
 <ion-content [fullscreen]="true" class="itemCenter menu_body">
     <ion-header collapse="condense">
@@ -46,7 +50,7 @@
     <ion-grid class="ion-align-items-center">
         <ion-row>
             <ion-col class="ion-align-self-center">
-                <ion-card routerLink="enfermedades">
+                <ion-card routerLink="/enfermedades">
                     <ion-card-header>
                         <ion-icon size="large" color="primary" name="thermometer-outline"></ion-icon>
                     </ion-card-header>

@@ -49,6 +49,14 @@ const routes: Routes = [
   {
     path: 'listmedicamentos',
     loadChildren: () => import('./pages/listmedicamentos/listmedicamentos.module').then( m => m.ListmedicamentosPageModule)
+  },
+  {
+    path: 'enfermedades',
+    loadChildren: () => import('./pages/enfermedades/enfermedades.module').then( m => m.EnfermedadesPageModule)
+  },
+  {
+    path: 'addenfermedad',
+    loadChildren: () => import('./pages/addenfermedad/addenfermedad.module').then( m => m.AddenfermedadPageModule)
   }
 
 
