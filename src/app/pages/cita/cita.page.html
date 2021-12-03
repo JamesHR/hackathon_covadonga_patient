@@ -1,11 +1,13 @@
-<ion-header>
-    <ion-toolbar>
-        <ion-title>
+<ion-toolbar mode="ios">
+    <ion-buttons slot="start" routerLink="/menu">
+        <ion-button>
+            <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+        </ion-button>
+    </ion-buttons>
+    <ion-title>Agendar cita</ion-title>
 
-            Agendar Cita Médica
-        </ion-title>
-    </ion-toolbar>
-</ion-header>
+
+</ion-toolbar>
 
 <ion-content mode="ios" class="contenedorLista">
 
@@ -31,6 +33,5 @@
 <ion-footer class="ion-no-border ion-padding">
     <ion-toolbar>
         <ion-button mode="ios" size="block" routerLink="/cita/cita2" color="primary">Continuar</ion-button>
-        <ion-button mode="ios" size="block" routerLink="/menu" color="medium">Regresar</ion-button>
     </ion-toolbar>
 </ion-footer>
