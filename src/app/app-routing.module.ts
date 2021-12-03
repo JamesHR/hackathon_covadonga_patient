@@ -41,6 +41,10 @@ const routes: Routes = [
   {
     path: 'listcitas',
     loadChildren: () => import('./pages/listcitas/listcitas.module').then( m => m.ListcitasPageModule)
+  },
+  {
+    path: 'registro',
+    loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule)
   }
 
 

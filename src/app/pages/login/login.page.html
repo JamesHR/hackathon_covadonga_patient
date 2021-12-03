@@ -2,17 +2,13 @@
 
     <ion-list mode="ios" class="contenedorLista">
 
-        <ion-list-header class="itemCenter">
-            <ion-label>
-                Iniciar sesión
-            </ion-label>
-        </ion-list-header>
+
         <div class="ion-no-border" class="logoLogin itemCenter margenArriba">
-            <img src="../../../assets/img/logo.jpeg" />
+            <img src="../../../assets/img/logo1.png" />
         </div>
         <ion-list-header class="itemCenter">
             <ion-label>
-                Bienvenido Mr. X
+                Iniciar sesión
             </ion-label>
         </ion-list-header>
 
@@ -26,26 +22,29 @@
                 <ion-input type="password"></ion-input>
             </ion-item>
             <br>
-            <div>
+            <div class="itemCenter">
                 <ion-button routerLink="/menu" size="block">Ingresar
-                    <ion-icon slot="end" name="arrow-forward"></ion-icon>
+
                 </ion-button>
+
+                <a href="/registro">Registrarme</a>
             </div>
             <br>
 
-
-            <ion-col size="2">
-
-                <ion-button color="medium">QR</ion-button>
-                <ion-button color="primary">Paquetes</ion-button>
-                <ion-button color="danger">Emergencia</ion-button>
-
-            </ion-col>
 
 
         </div>
     </ion-list>
 </ion-content>
-
-<ion-footer class="ion-no-border">
+<ion-footer class="ion-no-border ion-padding">
     <ion-toolbar>
+
+        <ion-col size="3">
+
+            <ion-button color="medium">QR</ion-button>
+            <ion-button color="primary">Paquetes</ion-button>
+            <ion-button color="danger">Emergencia</ion-button>
+
+        </ion-col>
+    </ion-toolbar>
+</ion-footer>
