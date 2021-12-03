@@ -1,7 +1,8 @@
 <ion-header>
     <ion-toolbar>
         <ion-title>
-            <ion-icon size="large" name="calendar" color="primary"></ion-icon>
+
+            Agendar Cita Médica
         </ion-title>
     </ion-toolbar>
 </ion-header>
@@ -9,18 +10,15 @@
 <ion-content>
 
     <ion-card>
-        <ion-header>
-            <ion-toolbar>
-                <ion-title>Agendar Cita Médica para:</ion-title>
-            </ion-toolbar>
-        </ion-header>
 
         <ion-item>
             <ion-label>Araceli Olmos Vallejo</ion-label>
         </ion-item>
 
         <ion-item>
-            <ion-label>Seleccione la fecha de su cita:</ion-label>
+            <ion-label position="floating">Fecha:</ion-label>
+            <ion-datetime value="2021-12-03T15:43:40.394Z" display-timezone="utc"></ion-datetime>
+
         </ion-item>
         <ion-item>
             <ion-label>Elija la hora :</ion-label>
@@ -39,7 +37,7 @@
 </ion-content>
 <ion-footer class="ion-no-border">
     <ion-toolbar>
-        <ion-button routerLink="/cita" color="medium">Regresar</ion-button>
-        <ion-button routerLink="/cita3" color="primary">Continuar</ion-button>
+        <ion-button size="block" routerLink="/cita3" color="primary">Continuar</ion-button>
+        <ion-button size="block" routerLink="/cita" color="medium">Regresar</ion-button>
     </ion-toolbar>
 </ion-footer>

@@ -12,4 +12,12 @@ export class ListcitasPage implements OnInit {
   ngOnInit() {
   }
 
+  favorite(){
+
+  }
+
+  share(){
+    
+  }
+
 }

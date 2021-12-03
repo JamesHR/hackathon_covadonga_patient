@@ -9,7 +9,10 @@ export class Cita2Page implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  ionViewWillEnter () {
+    
   }
 
 }
