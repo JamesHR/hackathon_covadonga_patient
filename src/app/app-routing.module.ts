@@ -37,6 +37,10 @@ const routes: Routes = [
   {
     path: 'addalergia',
     loadChildren: () => import('./pages/addalergia/addalergia.module').then( m => m.AddalergiaPageModule)
+  },
+  {
+    path: 'listcitas',
+    loadChildren: () => import('./pages/listcitas/listcitas.module').then( m => m.ListcitasPageModule)
   }
 
 
