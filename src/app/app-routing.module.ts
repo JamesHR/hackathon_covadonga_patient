@@ -57,6 +57,10 @@ const routes: Routes = [
   {
     path: 'addenfermedad',
     loadChildren: () => import('./pages/addenfermedad/addenfermedad.module').then( m => m.AddenfermedadPageModule)
+  },
+  {
+    path: 'paquetes',
+    loadChildren: () => import('./pages/paquetes/paquetes.module').then( m => m.PaquetesPageModule)
   }
 
 
