@@ -20,12 +20,16 @@
             </ion-item>
             <br>
 
-            <div>
+            <div class="ion-text-center">
                 <ion-button routerLink="/menu" size="block">Ingresar
                     <ion-icon slot="end" name="arrow-forward"></ion-icon>
                 </ion-button>
+                <br>
+                <ion-label routerLink="/registro" color="primary">
+                    Registrarme
+                </ion-label>
             </div>
-           
+
             <br>
 
         </div>
@@ -36,25 +40,23 @@
     <ion-toolbar>
         <ion-tabs>
             <ion-tab-bar slot="bottom">
-              <ion-tab-button >
-                <ion-icon name="call-outline"></ion-icon>
-                <ion-label>Emergencia</ion-label>
-              </ion-tab-button>
-          
-              <ion-tab-button>
-                <ion-icon name="qr-code-outline" color="primary"></ion-icon>
-                <ion-label color="primary">QR</ion-label>
-              </ion-tab-button>
-          
-              <ion-tab-button routerLink="/paquetes">
-                <ion-icon name="medkit-outline"></ion-icon>
-                <ion-label>Paquetes</ion-label>
-              </ion-tab-button>
-        
+                <ion-tab-button>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <ion-label>Emergencia</ion-label>
+                </ion-tab-button>
+
+                <ion-tab-button>
+                    <ion-icon name="qr-code-outline" color="primary"></ion-icon>
+                    <ion-label color="primary">QR</ion-label>
+                </ion-tab-button>
+
+                <ion-tab-button routerLink="/paquetes">
+                    <ion-icon name="medkit-outline"></ion-icon>
+                    <ion-label>Paquetes</ion-label>
+                </ion-tab-button>
+
             </ion-tab-bar>
-          </ion-tabs>
-    
+        </ion-tabs>
+
     </ion-toolbar>
 </ion-footer>
-
-  
